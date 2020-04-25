@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #050505;
+    width: 90%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    color: #f1f1ed;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1ed;
+}
+
+
+/* Header */
+
+header {
+    color: #f1f1ed;
+    margin: 0 auto;
+}
+
+header h1 {
+    padding: 1em;
+    width: 20%;
+    display: inline-block;
+}
+
+header section {
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+}
+
+
+/* Menu Principal */
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    margin-top: 1em;
+    margin-top: 1em;
+    width: 100%;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.menu a {
+    margin: 0 20px;
+    color: #f9fafa;
+}
+
+.menu ul {
+    display: flex;
+}
+
+
+/* Bloque Galeria */
+
+.slider_galeria {
+    height: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    text-align: center;
+    color: #050505;
+    background-image: url(https://images.unsplash.com/photo-1586897791687-7f5ff39beb05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.slider_galeria a {
+    color: #050505;
+}
+
+
+/* Bloque de noticias */
+
+.news {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.img_new {
+    height: 200px;
+    overflow: hidden;
+}
+
+.news .new {
+    background-color: #8a6c3f;
+}
+
+.text_new {
+    color: #f1f1ed;
+    padding: 0.5em;
+}
+
+.news img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* Sponsors */
+
+.sponsors {
+    width: 100%;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.sponsor_list {
+    width: 100%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: end;
+}
+
+footer h5 {
+    margin: 1em;
+    display: inline-block;
+}
