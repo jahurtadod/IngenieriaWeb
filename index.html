@@ -3,58 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>TALLER 1</title>
+    <title>TALLER 3</title>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/4feb140172.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+    <header class="topBar">
         <!-- insetar logotipo -->
-        <h1>LOGOTIPO</h1>
+        <div class="logo">
+            <p class="initials">
+                IW
+            </p>
+            <h1>Ingeniería Web</h1>
+        </div>
         <!-- segunda parte del header -->
-        <section>
-            <nav>
+        <div class="actionsBar">
+            <nav class="actions">
                 <a href="">REGISTER</a>
                 <a href="">LOGIN</a>
             </nav>
-            <aside class="barra_de_busqueda">
+            <aside class="search">
                 <!-- insertar la barra de busqueda -->
-                Buscar ...
+                <!-- <input type="text" placeholder="Buscar"> -->
+                <button>
+                    <i class="fas fa-search"></i>
+                </button>
             </aside>
-        </section>
+        </div>
     </header>
     <nav class="menu">
-        <ul>
-            <li><a href="">INICIO</a></li>
-            <li><a href="">SERVICIOS</a></li>
-            <li><a href="">PORTAFOLIO</a></li>
-            <li><a href="">CLIENTES</a></li>
-            <li><a href="">CONTACTOS</a></li>
-        </ul>
+        <a href="">INICIO</a>
+        <a href="">SERVICIOS</a>
+        <a href="">PORTAFOLIO</a>
+        <a href="">CLIENTES</a>
+        <a href="">CONTACTOS</a>
     </nav>
-    <section class="slider_galeria">
+    <section class="sliderGaleria">
         <h2>SLIDER GALERIA</h2>
-        <a href="">
-            Prev - Next
-        </a>
+        <div class="buttons">
+            <button>
+                <i class="fas fa-angle-left"></i>
+            </button>
+            <button>
+                <i class="fas fa-angle-right"></i>
+            </button>
+        </div>
     </section>
     <main class="news">
         <section class="new">
-            <div class="img_new">
+            <div class="img-new">
                 <img src="https://images.unsplash.com/photo-1586320902477-24c19029bd4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
             </div>
-            <div class="text_new">
+            <div class="content">
                 <h3>Noticia 1</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat aspernatur eligendi quo? Fuga fugiat voluptatem molestias aut, facilis quis eveniet minima expedita officia? Possimus consequuntur magni quis quas voluptatem?
+                </p>
                 <a href="">Leer más</a>
             </div>
         </section>
         <section class="new">
-            <div class="img_new">
+
+            <div class="img-new">
                 <img src="https://images.unsplash.com/photo-1585943969403-5921d3aeb695?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
             </div>
-            <div class="text_new">
+            <div class="content">
                 <h3>Noticia 2</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum quaerat aspernatur eligendi quo? Fuga fugiat voluptatem molestias aut, facilis quis eveniet minima expedita officia? Possimus consequuntur magni quis quas voluptatem?
+                </p>
                 <a href="">Leer más</a>
             </div>
         </section>
@@ -64,22 +83,22 @@
             SPONSORS
         </h3>
         <!-- insertar las imagenes de los logotipos de los sponsors -->
-        <div class="sponsor_list">
+        <div class="sponsor-list">
+            <div class="sponsor">
+                <h4>Facebook</h4>
+            </div>
+            <div class="sponsor">
+                <h4>Dribbble</h4>
+            </div>
+            <div class="sponsor">
+                <h4>Bēhance</h4>
+            </div>
+            <div class="sponsor">
+                <h4>UI SHOP</h4>
+            </div>
             <section class="sponsor">
-                <h4>Sponsor</h4>
-            </section>
-            <section class="sponsor">
-                <h4>Sponsor</h4>
-            </section>
-            <section class="sponsor">
-                <h4>Sponsor</h4>
-            </section>
-            <section class="sponsor">
-                <h4>Sponsor</h4>
-            </section>
-            <section class="sponsor">
-                <h4>Sponsor</h4>
-            </section>
+                <h4>Muzli</h4>
+        </div>
         </div>
     </aside>
     <footer>
