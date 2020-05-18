@@ -9,7 +9,7 @@ html {
 
 body {
     background-color: #050505;
-    width: 100%;
+    width: 80%;
     margin: auto;
     font-family: 'Quicksand', sans-serif;
     color: #f1f1ed;
@@ -239,6 +239,44 @@ button:hover {
     padding: 2em;
 }
 
+.tableData {
+    margin-top: 1em;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.content_page {
+    height: 60vh;
+}
+
+.title {
+    margin-top: 1em;
+}
+
+.tableData td,
+.tableData th {
+    border: 1px solid #050505;
+    padding: 8px;
+}
+
+.tableData tr:nth-child(even) {
+    background-color: #050505;
+}
+
+.tableData tr:hover {
+    background-color: #393E41;
+}
+
+.tableData th {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #8a6c3f;
+    color: white;
+    text-transform: uppercase;
+}
+
 
 /* Footer */
 
@@ -259,7 +297,7 @@ footer h5 {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
     body {
         font-size: 80%;
     }

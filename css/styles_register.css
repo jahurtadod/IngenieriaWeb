@@ -1,0 +1,67 @@
+.form {
+    width: 50%;
+    padding: 2em 0;
+    margin: 0 auto;
+}
+
+.groupInput {
+    padding: 0.5em 0;
+}
+
+.groupInput label {
+    display: block;
+    padding: 16px 0 8px 0;
+    /* color: #757474; */
+    text-align: justify;
+}
+
+.groupInput input {
+    min-width: 100%;
+    padding: 0 14px;
+    height: 33px;
+    line-height: 35px;
+    border: 1px solid #8a6c3f;
+    font-size: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btnSave {
+    width: 105%;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnSave button {
+    align-self: flex-end;
+}
+
+.inputHorizontal {
+    width: 100%;
+    display: flex;
+}
+
+.inputHorizontal input {
+    min-width: 5% !important;
+}
+
+.inputHorizontal label {
+    padding: 0 16px 0 16px;
+    align-items: center;
+    line-height: 150%;
+    font-size: .85em;
+}
+
+.inputHorizontal div {
+    align-items: center;
+    display: flex;
+}
+
+.content_page {
+    height: 100%;
+}
+
+@media all and (max-width: 720px) {
+    .form {
+        width: 100%;
+    }
+}

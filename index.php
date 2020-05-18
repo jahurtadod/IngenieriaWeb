@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="topBar">
+    <header class="topBar" id="home">
         <!-- insetar logotipo -->
         <div class="logo">
             <p class="initials">
@@ -22,8 +22,8 @@
         <!-- segunda parte del header -->
         <div class="actionsBar">
             <nav class="actions">
-                <a href="">REGISTER</a>
-                <a href="">LOGIN</a>
+                <a href="public/register.php">REGISTRATE</a>
+                <a href="">INGRESAR</a>
             </nav>
             <aside class="search">
                 <!-- insertar la barra de busqueda -->
@@ -35,11 +35,11 @@
         </div>
     </header>
     <nav class="menu">
-        <a href="">INICIO</a>
-        <a href="">SERVICIOS</a>
-        <a href="">PORTAFOLIO</a>
-        <a href="">CLIENTES</a>
-        <a href="">CONTACTOS</a>
+        <a href="#home">INICIO</a>
+        <a href="public/services.php">SERVICIOS</a>
+        <a href="public/briefcase.php">PORTAFOLIO</a>
+        <a href="resources/customers.php">CLIENTES</a>
+        <a href="public/contacts.php">CONTACTOS</a>
     </nav>
     <section class="sliderGaleria">
         <h2>SLIDER GALERIA</h2>
@@ -102,15 +102,7 @@
         </div>
         </div>
     </aside>
-    <footer>
-        <!-- insertar los elementos del pie de pagina -->
-        <h5>
-            jahurtadod@outlook.com
-        </h5>
-        <h5>
-            Todos los derechos reservados
-        </h5>
-    </footer>
+    <?php include 'components/footer.php'; ?>
 </body>
 
 </html>
